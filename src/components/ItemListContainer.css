@@ -1,0 +1,9 @@
+.item-list-container {
+    padding: 20px;
+    text-align: center;
+}
+
+.item-list-container h2 {
+    color: #4caf50;
+    margin-bottom: 10px;
+}
