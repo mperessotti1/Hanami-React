@@ -1,0 +1,24 @@
+.item-detail {
+background: #fff;
+padding: 1.5rem;
+border-radius: 14px;
+box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+}
+
+
+.item-detail img {
+border-radius: 14px;
+width: 100%;
+object-fit: cover;
+}
+
+
+.item-detail h2 {
+font-size: 2rem;
+margin-bottom: 0.5rem;
+}
+
+
+.item-detail .text-success {
+color: var(--brand-green-dark) !important;
+}

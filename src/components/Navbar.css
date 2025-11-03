@@ -34,5 +34,10 @@
 
 .nav-links a:hover {
     text-decoration: none;
-    color: yellowgreen;
+    color: greenyellow
+}
+
+.navbar-custom .nav-link:hover {
+    color: #b9ffdd !important;
+    text-decoration: none !important;
 }

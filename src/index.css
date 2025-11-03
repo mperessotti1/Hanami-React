@@ -1,5 +1,80 @@
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+:root {
+--brand-green: #2a8f6b;
+--brand-green-dark: #1f6b52;
+--muted: #f6f8f7;
+}
+
+
+body {
+background: linear-gradient(180deg, #ffffff 0%, #fbfffb 100%);
+color: #222;
+font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+}
+
+
+/* Navbar overrides */
+.navbar-brand img {
+height: 48px;
+}
+
+
+.navbar-custom {
+background: var(--brand-green);
+}
+
+
+.navbar-custom .nav-link,
+.navbar-custom .navbar-brand {
+color: #fff !important;
+}
+
+
+.navbar-custom .nav-link.active {
+font-weight: 700;
+text-decoration: underline;
+}
+
+
+.item-card {
+border-radius: 12px;
+box-shadow: 0 6px 18px rgba(42, 143, 107, 0.12);
+padding: 1rem;
+background: white;
+}
+
+
+.item-list {
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+gap: 1rem;
+}
+
+
+.item-detail {
+max-width: 900px;
+margin: 0 auto;
+background: white;
+padding: 1.2rem;
+border-radius: 12px;
+box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+}
+
+
+.btn-cta {
+background: var(--brand-green);
+border-color: var(--brand-green);
+color: #fff;
+}
+
+
+.btn-cta:hover {
+background: var(--brand-green-dark);
+border-color: var(--brand-green-dark);
+}
+
+
+.badge-category {
+background: rgba(42, 143, 107, 0.12);
+color: var(--brand-green-dark);
+font-weight: 600;
 }

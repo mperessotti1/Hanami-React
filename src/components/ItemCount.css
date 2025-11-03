@@ -1,0 +1,24 @@
+.item-count {
+display: flex;
+align-items: center;
+gap: 0.6rem;
+}
+
+
+.item-count button {
+width: 34px;
+height: 34px;
+border-radius: 8px;
+}
+
+
+.item-count span {
+min-width: 35px;
+text-align: center;
+font-size: 1.1rem;
+}
+
+
+.item-count small {
+color: #666;
+}
